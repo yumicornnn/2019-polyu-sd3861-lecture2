@@ -126,7 +126,7 @@ button:focus {
     transform: translateX(-1px);
   }
   to {
-        transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
 
@@ -135,7 +135,7 @@ button:focus {
     transform: translateX(1px);
   }
   to {
-        transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
 
