@@ -53,7 +53,7 @@ function generateMountain() {
 
       if (i == midPoint) {
         peakHeight = getRandomInt(15 - 8) + 8;
-        peakDrop = peakDrop ;
+        peakDrop = peakDrop;
       }
       let chunkedSeps = chunk(seperations, 2);
 
@@ -235,13 +235,13 @@ function drawClouds() {
     scale = scale * 0.01;
 
     left = Math.random() <= 0.5 ? left : left * -1;
-    
+
     if (left < 0) {
-      wrapper.classList.add('fromLeft');
+      wrapper.classList.add("fromLeft");
     } else {
-      wrapper.classList.add('fromRight');
+      wrapper.classList.add("fromRight");
     }
-    
+
     path.setAttribute("d", cloudPaths[i]);
     path.classList.add("cloud");
     path.style.transform =
